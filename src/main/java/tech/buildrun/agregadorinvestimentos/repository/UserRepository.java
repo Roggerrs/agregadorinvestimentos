@@ -8,4 +8,5 @@ import java.util.UUID;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, UUID> {
+    // Não é necessário declarar findById, pois já vem da interface JpaRepository
 }
