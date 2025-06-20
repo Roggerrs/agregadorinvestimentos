@@ -73,7 +73,8 @@ cd agregadorinvestimentos
 
 ## 🧠 Autor
 
-Desenvolvido por **[Eduardo Zero](https://github.com/Roggerrs)**
+Author **[Roggers](https://github.com/Roggerrs)**
+Colaboradores **[Truefenix](https://github.com/Truefenix)**
 
 📌 Projeto para estudos e demonstração de:
 
