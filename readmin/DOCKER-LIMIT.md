@@ -36,8 +36,9 @@ services:
       - MYSQL_PASSWORD=ThePassword
       - MYSQL_DATABASE=db_example
       - MYSQL_ROOT_PASSWORD=root
-    volumes:
-      - "./conf.d:/etc/mysql/conf.d:ro"
+      volumes:
+        - "./conf.d:/etc/mysql/conf.d:ro"
+        - "./data:/var/lib/mysql"
 ````
 
 ---
@@ -92,5 +93,7 @@ Com `512MB`, é possível usar MySQL para:
     
 
 Se necessário, aumente para `768MB` ou `1GB`.
+
+A senha do banco é 3307.
 
 ---
